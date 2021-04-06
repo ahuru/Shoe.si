@@ -1,0 +1,1 @@
+copas ke folder mysql/data
