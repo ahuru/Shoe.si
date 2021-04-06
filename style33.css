@@ -1,0 +1,24 @@
+.btn-form-change{
+  color:white;
+  background: #ff6868;
+  font-weight: bold;
+  border:none;
+  border-radius:50px;
+  padding:15px;
+  margin:10px;
+  width: 35%;
+  float:left;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.btn-form-pay{
+  color:white;
+  background: #27296d;
+  font-weight: bold;
+  border:none;
+  border-radius:50px;
+  padding:15px;
+  margin:10px;
+  width: 35%;
+  float:right;
+  cursor: pointer;

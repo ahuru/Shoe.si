@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Style0.css">
+
+
+</head>
+<body>
+  <form method="post" action="check.php">
+<h2>Form Pemesanan</h2>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Data diri</h3>
+            <label for="fname"><i class="fa fa-user"></i> Nama lengkap</label>
+            <input type="text" id="fname" name="firstname" placeholder="Aldi amri">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="aldi@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> No.hp</label>
+            <input type="text" id="adr" name="address" placeholder="0813 1981 7188">
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> data yang saya isi benar
+            </label>
+          </div>
+
+          <div class="col-50">
+            <h3>Pengiriman</h3>
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Alamat jemput</label>
+                <input type="text" id="Alamat jemput" name="Alamat jemput" placeholder="JL.Batu II No.54">
+              </div>
+               <div class="col-50">
+                <label for="expyear">Alamat kirim</label>
+                <input type="text" id="Alamat kirim" name="Alamat kirim" placeholder="JL.Batu II No.54">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Waktu jemput</label>
+                <input type="text" id="waktu jemput" name="waktu jemput" placeholder="27-11-19">
+              </div>
+              <div class="col-50">
+                <label for="expyear">Waktu kirim</label>
+                <input type="text" id="waktu kirim" name="waktu kirim" placeholder="29-12-19">
+              </div>
+              <textarea class="input-form" cols="75" rows="5" name="comment" placeholder="Catatan" required></textarea>
+            </textarea>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <input type="submit" value="Pesan" class="btn">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
